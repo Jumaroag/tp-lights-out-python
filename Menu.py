@@ -1,3 +1,6 @@
+
+#TODO mover estos prints a una funcion
+#TODO 2: Crear un main o principal para el comienzo de la aplicacion
 print("¡Hola!")
 print("¡Bienvenido a Lights Out!")
 def eleccion_nivel():
