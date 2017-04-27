@@ -13,4 +13,3 @@ def diccionario_a_formato_agradable():
     print("   A B C D E")
     for n,x in enumerate(abcde):
         print(n+1,"|" + x)
-diccionario_a_formato_agradable()
