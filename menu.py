@@ -7,8 +7,8 @@ def saludo_de_bienvenida():
 
 def eleccion_nivel():
     print("¿Que modo deseas jugar?")
-    print("1-Jugar Niveles")
-    print("2-Jugar Random")
+    print("1-Jugar Predeterminado")
+    print("2-Jugar Aleatorio")
     print("3-Salir")
     a = input()
     a = str(a)
