@@ -1,17 +1,16 @@
-def lista_a_formato_agradable():
-    tablero_1 = [["o", "o", ".", "o", "o"],
-                 ["o", ".", "o", ".", "o"],
-                 [".", "o", "o", "o", "."],
-                 ["o", ".", "o", ".", "o"],
-                 ["o", "o", ".", "o", "o"]]
-    a = tablero_1[0][0] + " " + tablero_1[0][1] + " " + tablero_1[0][2] + " " + tablero_1[0][3] + " " + tablero_1[0][4]
-    b = tablero_1[1][0] + " " + tablero_1[1][1] + " " + tablero_1[1][2] + " " + tablero_1[1][3] + " " + tablero_1[1][4]
-    c = tablero_1[2][0] + " " + tablero_1[2][1] + " " + tablero_1[2][2] + " " + tablero_1[2][3] + " " + tablero_1[2][4]
-    d = tablero_1[3][0] + " " + tablero_1[3][1] + " " + tablero_1[3][2] + " " + tablero_1[3][3] + " " + tablero_1[3][4]
-    e = tablero_1[4][0] + " " + tablero_1[4][1] + " " + tablero_1[4][2] + " " + tablero_1[4][3] + " " + tablero_1[4][4]
+def diccionario_a_formato_agradable():
+    tablero_1 = {"a1": "o","a2": "o","a3": ".","a4": "o","a5": "o",
+                 "b1": "o","b2": ".","b3": "o","b4": ".","b5": "o",
+                 "c1": ".","c2": "o","c3": "o","c4": "o","c5": ".",
+                 "d1": "o","d2": ".","d3": "o","d4": ".","d5": "o",
+                 "e1": "o","e2": "o","e3": ".","e4": "o","e5": "o"}
+    a = tablero_1["a1"] + " " + tablero_1["a2"] + " " + tablero_1["a3"] + " " + tablero_1["a4"] + " " + tablero_1["a5"]
+    b = tablero_1["b1"] + " " + tablero_1["b2"] + " " + tablero_1["b3"] + " " + tablero_1["b4"] + " " + tablero_1["b5"]
+    c = tablero_1["c1"] + " " + tablero_1["c2"] + " " + tablero_1["c3"] + " " + tablero_1["c4"] + " " + tablero_1["c5"]
+    d = tablero_1["d1"] + " " + tablero_1["d2"] + " " + tablero_1["d3"] + " " + tablero_1["d4"] + " " + tablero_1["d5"]
+    e = tablero_1["e1"] + " " + tablero_1["e2"] + " " + tablero_1["e3"] + " " + tablero_1["e4"] + " " + tablero_1["e5"]
     abcde = a, b, c, d, e
     print("   A B C D E")
     for n,x in enumerate(abcde):
         print(n+1,"|" + x)
-lista_a_formato_agradable()
-#Usar diccionarios para identificar cada poscicion en la tabla
+diccionario_a_formato_agradable()
