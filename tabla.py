@@ -14,3 +14,4 @@ def lista_a_formato_agradable():
     for n,x in enumerate(abcde):
         print(n+1,"|" + x)
 lista_a_formato_agradable()
+#Usar diccionarios para identificar cada poscicion en la tabla
