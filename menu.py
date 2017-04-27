@@ -11,11 +11,12 @@ def eleccion_nivel():
     print("2-Jugar Random")
     print("3-Salir")
     a = input()
-    if (int(a) == 1):
+    a = str(a)
+    if (a == "1"):
         print("Usted eligio hacer los niveles predetermiandos...")
-    elif (int(a) == 2):
+    elif (a == "2"):
         print("Usted eligio hacer un nivel aleatorio...")
-    elif (int(a) == 3):
+    elif (a == "3"):
         print("SALIR")
     else:
         print("Opción no válida, elija 1, 2 o 3")
