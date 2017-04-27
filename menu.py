@@ -13,9 +13,9 @@ def eleccion_nivel():
     a = input()
     a = str(a)
     if (a == "1"):
-        print("Usted eligio hacer los niveles predetermiandos...")
+        print("Usted eligió el modo de niveles predeterminados...")
     elif (a == "2"):
-        print("Usted eligio hacer un nivel aleatorio...")
+        print("Usted eligió el modo de niveles aleatorios...")
     elif (a == "3"):
         print("SALIR")
     else:
