@@ -1,8 +1,10 @@
+def saludo_de_bienvenida():
+    hola = " ¡¡ Hola !! "
+    print(hola.center(50, "="))
+    bienvenido = " ¡ Bienvenido a Lights Out ! "
+    print(bienvenido.center(50, "="))
+    print()
 
-#TODO mover estos prints a una funcion
-#TODO 2: Crear un main o principal para el comienzo de la aplicacion
-print("¡Hola!")
-print("¡Bienvenido a Lights Out!")
 def eleccion_nivel():
     print("¿Que modo deseas jugar?")
     print("1-Jugar Niveles")
@@ -16,5 +18,5 @@ def eleccion_nivel():
     elif (int(a) == 3):
         print("SALIR")
     else:
+        print("Opción no válida, elija 1, 2 o 3")
         eleccion_nivel()
-eleccion_nivel()
