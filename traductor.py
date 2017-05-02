@@ -7,5 +7,8 @@ def traductor():
     a = a.lower()
     if (a in tablero.tablero_1()):
         print(tablero.tablero_1()[a])
+    elif (a not in tablero.tablero_1()):
+        print("Poscicion no valida, elija una poscición comprendida entre A1 y E5")
+        traductor()
 
 traductor()
