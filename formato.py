@@ -1,11 +1,11 @@
 import tablero
-tablero.tablero_1()
+tablero.posciciones_del_tablero()
 def diccionario_a_formato_agradable():
-    a = tablero.tablero_1()["a1"] + " " + tablero.tablero_1()["a2"] + " " + tablero.tablero_1()["a3"] + " " + tablero.tablero_1()["a4"] + " " + tablero.tablero_1()["a5"]
-    b = tablero.tablero_1()["b1"] + " " + tablero.tablero_1()["b2"] + " " + tablero.tablero_1()["b3"] + " " + tablero.tablero_1()["b4"] + " " + tablero.tablero_1()["b5"]
-    c = tablero.tablero_1()["c1"] + " " + tablero.tablero_1()["c2"] + " " + tablero.tablero_1()["c3"] + " " + tablero.tablero_1()["c4"] + " " + tablero.tablero_1()["c5"]
-    d = tablero.tablero_1()["d1"] + " " + tablero.tablero_1()["d2"] + " " + tablero.tablero_1()["d3"] + " " + tablero.tablero_1()["d4"] + " " + tablero.tablero_1()["d5"]
-    e = tablero.tablero_1()["e1"] + " " + tablero.tablero_1()["e2"] + " " + tablero.tablero_1()["e3"] + " " + tablero.tablero_1()["e4"] + " " + tablero.tablero_1()["e5"]
+    a = tablero.posciciones_del_tablero()["a1"] + " " + tablero.posciciones_del_tablero()["a2"] + " " + tablero.posciciones_del_tablero()["a3"] + " " + tablero.posciciones_del_tablero()["a4"] + " " + tablero.posciciones_del_tablero()["a5"]
+    b = tablero.posciciones_del_tablero()["b1"] + " " + tablero.posciciones_del_tablero()["b2"] + " " + tablero.posciciones_del_tablero()["b3"] + " " + tablero.posciciones_del_tablero()["b4"] + " " + tablero.posciciones_del_tablero()["b5"]
+    c = tablero.posciciones_del_tablero()["c1"] + " " + tablero.posciciones_del_tablero()["c2"] + " " + tablero.posciciones_del_tablero()["c3"] + " " + tablero.posciciones_del_tablero()["c4"] + " " + tablero.posciciones_del_tablero()["c5"]
+    d = tablero.posciciones_del_tablero()["d1"] + " " + tablero.posciciones_del_tablero()["d2"] + " " + tablero.posciciones_del_tablero()["d3"] + " " + tablero.posciciones_del_tablero()["d4"] + " " + tablero.posciciones_del_tablero()["d5"]
+    e = tablero.posciciones_del_tablero()["e1"] + " " + tablero.posciciones_del_tablero()["e2"] + " " + tablero.posciciones_del_tablero()["e3"] + " " + tablero.posciciones_del_tablero()["e4"] + " " + tablero.posciciones_del_tablero()["e5"]
     abcde = a, b, c, d, e
     print("   A B C D E")
     for n,x in enumerate(abcde):
